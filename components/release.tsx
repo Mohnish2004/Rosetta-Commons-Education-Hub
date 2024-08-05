@@ -44,14 +44,14 @@ const releaseNotes = [
   const ReleaseNotes = () => (
 <div className="max-w-7xl mt-6 mx-auto px-4 py-10 sm:px-6 lg:px-8 lg:py-4">
     <div className="mb-20">
-  <h1 className="text-5xl font-bold">Release Notes</h1>
+  <h1 className="text-5xl font-bold text-[#2A2D30] dark:text-slate-100">Release Notes</h1>
   <p className="mt-4 text-md font-light max-w-prose">
     Stay updated on the newest modules and changes for Rosetta Commons Education Hub. To learn more about Rosetta Commons, please visit their <span className="text-[#078FA4] text-md font-semibold ">main website</span>
   </p>
 </div>
 
   
-      <ol className="relative border-gray-200 dark:border-gray-700">
+      <ol className="relative pt-16 border-gray-200 dark:border-gray-700">
         {releaseNotes.map((note, index) => (
           <li key={index} className="mb-10 border-b ">
             <time className="block mb-4 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">{note.date}</time>
