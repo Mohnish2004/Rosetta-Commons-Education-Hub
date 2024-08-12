@@ -6,8 +6,8 @@
       "layout": "full"
     }
   },
-  "documents": {
-    "title": "Documents",
+  "resources": {
+    "title": "Resources",
     "type": "page"
   },
   "help": {
@@ -22,7 +22,6 @@
     "type": "page",
     "theme": {
       "layout": "full"
-    
     }
   }
 }

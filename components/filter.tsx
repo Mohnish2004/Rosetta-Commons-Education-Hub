@@ -60,7 +60,7 @@ const ExploreTopics = () => {
 </div>
 
 
-<div className="py-2 px-4 mb-20 mt-10 max-w-screen-7xl sm:py-1 lg:px-1">
+<div className="py-2 px-4 mb-20 mt-20 max-w-screen-7xl sm:py-1 lg:px-1">
   <div className="mx-auto max-w-screen-lg text-left p-6 bg-[#F2FBFC] dark:bg-[#052529] rounded-2xl">
     <h2 className="mb-10 text-4xl tracking-tight font-extrabold leading-tight text-[#196A76] dark:text-[#ffffff]">
       Getting Started
