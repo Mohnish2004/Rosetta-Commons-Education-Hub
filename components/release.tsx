@@ -1,9 +1,25 @@
 const releaseNotes = [
+  {
+    version: "DEMO v1.0.2",
+    latest: true,
+    date: "Released on Aug 12th, 2021",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan arcu. Nulla facilisi.",
+    status: "updated",
+    link: "https://test-wine-seven-64.vercel.app/release",
+    linkText: "View website →",
+  },
     {
       version: "Lorem Ipsum v2.0.0",
       latest: true,
       date: "January 13th, 2022",
       description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      link: "#",
+      linkText: "View module →",
+      status: "latest" // Can be "latest", "removed", "updated"
+    },    {
+      version: "Lorem Ipsum v6.0.0",
+      date: "Aug 11th, 2022",
+      description: "This is pretty good stuff",
       link: "#",
       linkText: "View module →",
       status: "latest" // Can be "latest", "removed", "updated"
@@ -51,7 +67,7 @@ const releaseNotes = [
 </div>
 
   
-      <ol className="relative pt-16 border-gray-200 dark:border-gray-700">
+      <ol className="relative pt-6 border-gray-200 dark:border-gray-700">
         {releaseNotes.map((note, index) => (
           <li key={index} className="mb-10 border-b ">
             <time className="block mb-4 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">{note.date}</time>
