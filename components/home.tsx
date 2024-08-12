@@ -5,8 +5,8 @@ export default function Home() {
       <div className="flex max-w-screen-2xl grow flex-col items-start justify-start gap-12 px-3 py-12 md:pt-24 lg:px-0 xl:flex-row">
         <div className="sm:pl-8 lg:pl-16 xl:pl-32 mb-0 flex flex-1 flex-col items-start gap-12 px-0 xl:mb-24">
           <div className="flex max-w-lg flex-col gap-2">
-          <h1 className="max-w-xl mb-4 text-7xl text-[#102349] font-bold tracking-tight leading-none md:text-7xl xl:text-7xl dark:text-white">Learn Protein Modeling</h1>
-         <p className="max-w-md mb-6 font-light text-gray-500 tracking-tight leading-tight lg:mb-8 md:text-md lg:text-md dark:text-gray-400">Dive into our protein modeling and design educational resources; these are community-driven content designed to help you master Rosetta's and supported ML-based tools and applications.</p>
+          <h1 className="max-w-xl mb-4 text-7xl text-[#102349] font-bold tracking-tight leading-none md:text-7xl xl:text-7xl dark:text-white">Learn Protein Modeling & Design</h1>
+         <p className="max-w-md mb-6 font-light text-gray-500 tracking-tight leading-tight lg:mb-8 md:text-md lg:text-md dark:text-gray-400">Dive into our educational resources; this collection of community-created content aims to enable mastery of Rosetta's and supported ML-based biomolecular modeling and design tools and applications.</p>
              <div className="flex flex-wrap gap-3">
        <a href="/documents/introduction" className="inline-flex items-center justify-center px-5 py-3 text-base text-white font-medium bg-[#078B9F] rounded-lg hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
          Get Started <svg className="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
