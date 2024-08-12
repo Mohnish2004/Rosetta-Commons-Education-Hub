@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
 // Example topics data
-const topics = ['Topic 1', 'Topic 2', 'Topic 3', 'Topic 4', 'Topic 5'];
+const topics = ['Topic 1', 'Topic 2', 'Topic 3', 'Topic 4', 'Topic 5','PyRosetta'];
 
 const cards = [
-  { id: 1, topic: 'Topic 1', description: 'This is a description of Topic 1' },
+  { id: 1, topic: 'PyRosetta', description: 'This is a description of PyRosetta' },
   { id: 2, topic: 'Topic 2', description: 'This is a description of Topic 2' },
   { id: 3, topic: 'Topic 3', description: 'This is a description of Topic 3' },
   { id: 4, topic: 'Topic 4', description: 'This is a description of Topic 4' },
