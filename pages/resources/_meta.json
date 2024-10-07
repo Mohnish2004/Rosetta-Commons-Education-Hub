@@ -9,6 +9,10 @@
   "----": {
     "type": "separator"
   },
+  "techresources": "Technical Resources",
+  "----": {
+    "type": "separator"
+  },
   "preuser": "Pre User",
   "-----": {
     "type": "separator"

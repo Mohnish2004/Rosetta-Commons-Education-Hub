@@ -1,5 +1,14 @@
 const releaseNotes = [
   {
+    version: "Ashley made new heading",
+    latest: true,
+    date: "Released on Sep 17 2024",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan arcu. Nulla facilisi.",
+    status: "updated",
+    link: "https://test-wine-seven-64.vercel.app/release",
+    linkText: "View website →",
+  },
+  {
     version: "DEMO v1.0.2",
     latest: true,
     date: "Released on Aug 12th, 2021",
